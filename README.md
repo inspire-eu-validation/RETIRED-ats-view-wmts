@@ -60,10 +60,10 @@ This Conformance Class contains the following tests:
 | [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Missing
 | [A.04.layer.name](A.04.layer.name.md) | | Yes | Missing
 | [A.05.layer.resource.id](A.05.layer.resource.id.md) | | Yes
-| [A.06.IR85.layer.title](A.06.IR85.layer.title.md)
-| [A.07.IR86.layer.abstract](A.07.IR86.layer.abstract.md)
-| [A.08.IR88.layer.bbox](A.02.IR88.layer.bbox.md)
-| [A.09.IR90.layer.style](A.02.IR82.layer.style.md)
+| [A.06.IR85.layer.title](A.06.IR85.layer.title.md) | | Yes
+| [A.07.IR86.layer.abstract](A.07.IR86.layer.abstract.md) | | Yes
+| [A.08.IR88.layer.bbox](A.02.IR88.layer.bbox.md) | | Yes
+| [A.09.IR90.layer.style](A.02.IR82.layer.style.md) | | Yes
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
