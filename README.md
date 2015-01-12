@@ -59,11 +59,11 @@ This Conformance Class contains the following tests:
 | [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Missing
 | [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Missing
 | [A.04.layer.name](A.04.layer.name.md) | | Yes | Missing
-| [A.05.layer.resource.id](A.05.layer.resource.id.md) | | Yes
-| [A.06.IR85.layer.title](A.06.IR85.layer.title.md) | | Yes
-| [A.07.IR86.layer.abstract](A.07.IR86.layer.abstract.md) | | Yes
-| [A.08.IR88.layer.bbox](A.02.IR88.layer.bbox.md) | | Yes
-| [A.09.IR90.layer.style](A.02.IR82.layer.style.md) | | Yes
+| [A.05.layer.resource.id](A.05.layer.resource.id.md) | | Yes | Missing
+| [A.06.IR85.layer.title](A.06.IR85.layer.title.md) | IR | Yes | Missing
+| [A.07.IR86.layer.abstract](A.07.IR86.layer.abstract.md) | IR | Yes | Missing
+| [A.08.IR88.layer.bbox](A.02.IR88.layer.bbox.md) | IR | Yes | Missing
+| [A.09.IR90.layer.style](A.02.IR82.layer.style.md) | IR | Yes | Missing
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
