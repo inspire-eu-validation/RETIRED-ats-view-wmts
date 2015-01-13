@@ -3,10 +3,15 @@ ats-view-wmts
 
 Abstract Test Suite for INSPIRE View Services Technical Guidance WMTS 1.0.0 Profile
 
-References
-* [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
-* [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
-* [OpenGIS® Web Map Tile Service Implementation Standard version 1.0.0](http://portal.opengeospatial.org/files/?artifact_id=35326)
+## External document references
+
+The following abbreviations are used in the test text for referring to external documents
+
+Abbreviation                     | Document name
+-------------------------------- | --------------------------------------------------
+TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
+IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
+WMTS <a name="ref_WMTS"></a>     | [OpenGIS® Web Map Tile Service Implementation Standard version 1.0.0](http://portal.opengeospatial.org/files/?artifact_id=35326)
 
 *Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
 
@@ -55,7 +60,7 @@ This Conformance Class contains the following tests:
 | [WMTS.A.3.5.10 Correct Format (GetTile)](OGC_07-057r7_A.3.5.10.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | [WMTS.A.3.5.11 Size (GetTile)](OGC_07-057r7_A.3.5.11.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | [WMTS.A.3.5.12 Transparent color (GetTile)](OGC_07-057r7_A.3.5.12.md)      | OGC WMTS 1.0.0      | Yes        | Final
-| [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Missing
+| [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Draft
 | [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Missing
 | [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Missing
 | [A.04.layer.name](A.04.layer.name.md) | | Yes | Missing
@@ -69,5 +74,7 @@ This Conformance Class contains the following tests:
 
 The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
 
-Prefix     | Namespace
----------- | -------------------------------------------------
+Prefix           | Namespace
+---------------- | -------------------------------------------------
+inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
+inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
