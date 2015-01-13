@@ -25,6 +25,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ExtendedCapabilities <a name="extendedCapabilities"></a>   | /wms:WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities[1]
-SupportedLanguages <a name="supportedLanguages"></a>   | /wms:WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities[1]/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage
-ResponseLanguage <a name="responseLanguage"></a>   | /wms:WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities[1]//inspire_common:ResponseLanguage
+ExtendedCapabilities <a name="extendedCapabilities"></a>   | /wmts:Capabilities/ows:OperationsMetadata/inspire_vs:ExtendedCapabilities
+SupportedLanguages <a name="supportedLanguages"></a>   | /wmts:Capabilities/ows:OperationsMetadata/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage
+ResponseLanguage <a name="responseLanguage"></a>   | /wmts:Capabilities/ows:OperationsMetadata/inspire_vs:ExtendedCapabilities/inspire_common:ResponseLanguage
