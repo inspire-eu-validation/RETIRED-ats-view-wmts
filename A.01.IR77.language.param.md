@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* Test for the existence and validity of the INSPIRE [ExtendedCapabilities](#extendedCapabilities) in ServiceMetadata document has been passed.
+* Test for the existence and validity of the INSPIRE [ExtendedCapabilities](#extendedCapabilities) in ServiceMetadata document has been passed (*TODO: replace with a reference to this test after it's been created*).
 
 **Test method**
 
