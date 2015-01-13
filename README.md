@@ -3,6 +3,8 @@ ats-view-wmts
 
 Abstract Test Suite for INSPIRE View Services Technical Guidance WMTS 1.0.0 Profile
 
+*Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
+
 ## External document references
 
 The following abbreviations are used in the test text for referring to external documents
@@ -13,7 +15,16 @@ TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of
 IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
 WMTS <a name="ref_WMTS"></a>     | [OpenGIS® Web Map Tile Service Implementation Standard version 1.0.0](http://portal.opengeospatial.org/files/?artifact_id=35326)
 
-*Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
+## XML namespace prefixes <a name="namespaces"></a>
+
+The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
+
+Prefix           | Namespace
+---------------- | -------------------------------------------------
+inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
+inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
+
+## Tests
 
 This Conformance Class contains the following tests:
 
@@ -69,12 +80,3 @@ This Conformance Class contains the following tests:
 | [A.07.IR86.layer.abstract](A.07.IR86.layer.abstract.md) | IR | Yes | Missing
 | [A.08.IR88.layer.bbox](A.02.IR88.layer.bbox.md) | IR | Yes | Missing
 | [A.09.IR90.layer.style](A.02.IR82.layer.style.md) | IR | Yes | Missing
-
-## XML namespace prefixes <a name="namespaces"></a>
-
-The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
-
-Prefix           | Namespace
----------------- | -------------------------------------------------
-inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
-inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
