@@ -7,7 +7,7 @@ Abstract Test Suite for INSPIRE View Services Technical Guidance WMTS 1.0.0 Prof
 
 ## External document references
 
-The following abbreviations are used in the test text for referring to external documents
+The following abbreviations are used in the test text for referring to external documents:
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
@@ -21,6 +21,8 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix           | Namespace
 ---------------- | -------------------------------------------------
+wmts             | http://www.opengis.net/wmts/1.0
+ows              | http://www.opengis.net/ows/1.1
 inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
 inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
 
