@@ -1,15 +1,16 @@
 # A.01.IR77.language.param
 
-**Purpose**: The View Service must be able to return the capabilities document in all the languages advertised as supported.
+**Purpose**: The View Service must be able to return the service metadata document in all the languages advertised as supported.
 
 **Prerequisites**
 
+* Test for the schema validity of the ServiceMetadata document has been passed.
 * Test for the existence and validity of the INSPIRE [ExtendedCapabilities](#extendedCapabilities) in ServiceMetadata document has been passed (*TODO: replace with a reference to this test after it's been created*).
 
 **Test method**
 
-For all the [SupportedLanguages](#supportedLanguages) as `language`:
-* Make a GetCapabilities request using the `language` string as the value for LANGUAGE request parameter,
+For each [SupportedLanguages](#supportedLanguages) as `language`:
+* Make a ServiceMetadata request for this service (RESTful or procedure oriented) using the `language` string as the value for LANGUAGE request parameter,
 * Check that the value of the [ResponseLanguage](#responseLanguage) of each of the returned capabilities documents equals `language`.
 
 **Reference(s)**: [TG VS](README.md#ref_TG_VS), Chapter 5.2.6
