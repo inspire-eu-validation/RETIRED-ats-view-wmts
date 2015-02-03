@@ -13,6 +13,7 @@ Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
 TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
 IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
+IR IOP <a name="ref_IR_IOP"><a/> | [COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2010:323:FULL&from=EN)
 WMTS <a name="ref_WMTS"></a>     | [OpenGIS® Web Map Tile Service Implementation Standard version 1.0.0](http://portal.opengeospatial.org/files/?artifact_id=35326)
 TG MD <a name="ref_TG_MD"></a>   | [Technical Guidance for the implementation of INSPIRE Discovery Services 3.1](http://inspire.ec.europa.eu/documents/Network_Services/TechnicalGuidance_DiscoveryServices_v3.1.pdf)
 
@@ -79,10 +80,9 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
 | [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Draft
 | [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Draft
-| [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Missing
-| [A.04.layer.name](A.04.layer.name.md) | | Yes | Missing
-| [A.05.layer.resource.id](A.05.layer.resource.id.md) | | Yes | Missing
-| [A.06.IR85.layer.title](A.06.IR85.layer.title.md) | IR | Yes | Missing
-| [A.07.IR86.layer.abstract](A.07.IR86.layer.abstract.md) | IR | Yes | Missing
-| [A.08.IR88.layer.bbox](A.02.IR88.layer.bbox.md) | IR | Yes | Missing
-| [A.09.IR90.layer.style](A.02.IR82.layer.style.md) | IR | Yes | Missing
+| [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Draft
+| [A.04.layer.name.id](A.04.layer.name.id.md) | | Yes | Draft
+| [A.05.IR85.layer.title](A.05.IR85.layer.title.md) | IR | Yes | Missing
+| [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | IR | Yes | Missing
+| [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Missing
+| [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Missing
