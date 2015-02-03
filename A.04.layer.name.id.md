@@ -2,6 +2,10 @@
 
 **Purpose**: It must be simple and unambiguous to find out which of the layers provided by the service visualize the INSPIRE spatial data sets given in the Data Specifications for each INSPIRE theme. These layers must be named according to the INSPIRE Harmonized layer names defined in [IR IOP](README.md#ref_IR_IOP)
 
+**Prerequisites**
+
+* Test for the schema validity of the ServiceMetadata document has been passed.
+
 **Test method**
 
 For each [Layer element](#layer) provided by the service according to it's Service Metadata:

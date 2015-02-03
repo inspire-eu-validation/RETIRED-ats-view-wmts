@@ -2,6 +2,10 @@
 
 **Purpose**: To ensure that tiles for all layers provided by this service are made available in either PNG or GIF format (without LZW compression). The aim is to support clients capable of handling only a small set of different image formats, and to be able to use the same image basic formats with all INSPIRE services.
 
+**Prerequisites**
+
+* Test for the schema validity of the ServiceMetadata document has been passed.
+
 **Test method**
 
 For each [Layer element](#layer) provided by the service according to it's Service Metadata: Check that there is at least one [Format](#format) element either with content "image/png" or "image/gif".
