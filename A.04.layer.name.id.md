@@ -16,8 +16,9 @@ For each [Layer element](#layer) provided by the service according to it's Servi
   * Check that `metadata` contains a non-empty [href attribute](#href_attr) and that it's a valid URL and fetch the document it refers to.
   * Check that the fetched document contains is a valid INSPIRE metadata record for a data set at it's root.
   * Check if the [Specification](#specification) contains one of the official translations of the names of [IR IOP](README.md#ref_IR_IOP) and that the value of [Pass](#pass) equals "true".
-  * If the above conditions are not met, pass the test is non-INSPIRE layer. If they are passes also check the following:
-     *  Check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments. If there is a match the test passes, if not the test fails.
+  * If the above conditions are not met, pass the test is non-INSPIRE layer. If they are passed also check the following:
+     *  Check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments.
+     * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names.
 
 **Reference(s)**: [IR IOP](README.md#ref_IR_IOP), [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6
 
