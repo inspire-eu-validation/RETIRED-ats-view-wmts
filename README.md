@@ -32,53 +32,53 @@ xlink            | http://www.w3.org/1999/xlink
 
 ## Tests
 
-This Conformance Class contains the following tests:
+This Conformance Class contains the tests in the table below. The test with "WMTS" prefix refer to the OGC WMTS 1.0.0 specification ATS (Annex A).
 
 | Identifier                                                                                | Origin | Mechanical | Status   |
 | ----------------------------------------------------------------------------------------- | ------ | ---------- | -------- |
-| [WMTS.A.3.1.2 Accept HTTP GET and POST transferred operation requests (All operations)](OGC_07-057r7_A.3.1.2.md) 	      | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.1.3 Handle KVP-encoded operation requests (All operations)](OGC_07-057r7_A.3.1.3.md) | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.1.4 Handle SOAP-encoded operation requests (All operations)](OGC_07-057r7_A.3.1.4.md) 	        | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.1.5 Handle HTTP GET RESTful -encoded operation requests (All operations)](OGC_07-057r7_A.3.1.5.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.1.6 KVP and SOAP HTTP response status code (All operations)](OGC_07-057r7_A.3.1.6.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.2.1 Accept HTTP GET transferred operation requests (GetCapabilities)](OGC_07-057r7_A.3.2.1.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.2.2  GetCapabilities operation response (GetCapabilities)](OGC_07-057r7_A.3.2.2.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.2.3 Version negotiation (GetCapabilities)](OGC_07-057r7_A.3.2.3.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.2.4 Format selection (GetCapabilities)](OGC_07-057r7_A.3.2.4.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.2.5 Handling updateSequence parameter (GetCapabilities)](OGC_07-057r7_A.3.2.5.md) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.2.6 Section selection (GetCapabilities)](OGC_07-057r7_A.3.2.6.md) 	                    | OGC  WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.3.1 Accept HTTP GET transferred operation requests (ServiceMetadata resource)](OGC_07-057r7_A.3.3.1.md)	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.4.1 XML well formated (ServiceMetadata response)](OGC_07-057r7_A.3.4.1.md)      | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.4.2 XML references the normative schema (ServiceMetadata response)](OGC_07-057r7_A.3.4.2.md)      | OGC WMTS 1.0.0     | Yes        | Final    |
-| [WMTS.A.3.4.3 XML validates against the schema (ServiceMetadata response)](OGC_07-057r7_A.3.4.3.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.4 OnLineResource is an only resource prefix (ServiceMetadata response)](OGC_07-057r7_A.3.4.4.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.5 XML format for GetCapabilities (ServiceMetadata response)](OGC_07-057r7_A.3.4.5.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.6 ows:Constraint GetEncoding (ServiceMetadata response)](OGC_07-057r7_A.3.4.6.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.7 ows:Constraint PostEncoding (ServiceMetadata response)](OGC_07-057r7_A.3.4.7.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.8 Layer identifiers (ServiceMetadata response)](OGC_07-057r7_A.3.4.8.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.9 Layer LegendURL are correct resources (ServiceMetadata response)](OGC_07-057r7_A.3.4.9.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.10 Layer LegendURL correct Format (ServiceMetadata response)](OGC_07-057r7_A.3.4.10.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.11 Layer LegendURL correct sizes (ServiceMetadata response)](OGC_07-057r7_A.3.4.11.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.12 Layer TileMatrixSet is valid (ServiceMetadata response)](OGC_07-057r7_A.3.4.12.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.13 TileMatrixSet Identifier (ServiceMetadata response)](OGC_07-057r7_A.3.4.13.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.14 TileMatrix Identifier (ServiceMetadata response)](OGC_07-057r7_A.3.4.14.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.15 TileMatrixSet ScaleDenominators (ServiceMetadata response)](OGC_07-057r7_A.3.4.15.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.16 TileMatrixSet WellKnownScaleSet (ServiceMetadata response)](OGC_07-057r7_A.3.4.16.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.4.17 Theme LayerRef is valid (ServiceMetadata response)](OGC_07-057r7_A.3.4.17.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.1 Layer (GetTile)](OGC_07-057r7_A.3.5.1.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.2 ResourceURL template (GetTile)](OGC_07-057r7_A.3.5.2.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.3 TileMatrixSet (GetTile)](OGC_07-057r7_A.3.5.3.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.4 TileMatrix (GetTile)](OGC_07-057r7_A.3.5.4.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.5 TileRow and TileCol (GetTile)](OGC_07-057r7_A.3.5.5.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.6 Incorrect Style (GetTile)](OGC_07-057r7_A.3.5.6.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.7 Tile incorrect dimension value (GetTile)](OGC_07-057r7_A.3.5.7.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.8 Tile dimension default and current (GetTile)](OGC_07-057r7_A.3.5.8.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.9 Incorrect Format (GetTile)](OGC_07-057r7_A.3.5.9.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.10 Correct Format (GetTile)](OGC_07-057r7_A.3.5.10.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.11 Size (GetTile)](OGC_07-057r7_A.3.5.11.md)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| [WMTS.A.3.5.12 Transparent color (GetTile)](OGC_07-057r7_A.3.5.12.md)      | OGC WMTS 1.0.0      | Yes        | Final
+| WMTS.A.3.1.2 Accept HTTP GET and POST transferred operation requests (All operations)     | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.1.3 Handle KVP-encoded operation requests (All operations) | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.1.4 Handle SOAP-encoded operation requests (All operations) 	        | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.1.5 Handle HTTP GET RESTful -encoded operation requests (All operations) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.1.6 KVP and SOAP HTTP response status code (All operations)                  | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.2.1 Accept HTTP GET transferred operation requests (GetCapabilities) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.2.2  GetCapabilities operation response (GetCapabilities)                   | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.2.3 Version negotiation (GetCapabilities)                   | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.2.4 Format selection (GetCapabilities)	                    | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.2.5 Handling updateSequence parameter (GetCapabilities) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.2.6 Section selection (GetCapabilities)                   | OGC  WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.3.1 Accept HTTP GET transferred operation requests (ServiceMetadata resource)	                    | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.4.1 XML well formated (ServiceMetadata response)      | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.4.2 XML references the normative schema (ServiceMetadata response)     | OGC WMTS 1.0.0     | Yes        | Final    |
+| WMTS.A.3.4.3 XML validates against the schema (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.4 OnLineResource is an only resource prefix (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.5 XML format for GetCapabilities (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.6 ows:Constraint GetEncoding (ServiceMetadata response)]     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.7 ows:Constraint PostEncoding (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.8 Layer identifiers (ServiceMetadata response)    | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.9 Layer LegendURL are correct resources (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.10 Layer LegendURL correct Format (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.11 Layer LegendURL correct sizes (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.12 Layer TileMatrixSet is valid (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.13 TileMatrixSet Identifier (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.14 TileMatrix Identifier (ServiceMetadata response)    | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.15 TileMatrixSet ScaleDenominators (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.16 TileMatrixSet WellKnownScaleSet (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.4.17 Theme LayerRef is valid (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.1 Layer (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.2 ResourceURL template (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.3 TileMatrixSet (GetTile)    | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.4 TileMatrix (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.5 TileRow and TileCol (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.6 Incorrect Style (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.7 Tile incorrect dimension value (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.8 Tile dimension default and current (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.9 Incorrect Format (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.10 Correct Format (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
+| WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
 | [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Draft
-| [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Missing
+| [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Draft
 | [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Missing
 | [A.04.layer.name](A.04.layer.name.md) | | Yes | Missing
 | [A.05.layer.resource.id](A.05.layer.resource.id.md) | | Yes | Missing
