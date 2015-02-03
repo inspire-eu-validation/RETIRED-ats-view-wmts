@@ -28,6 +28,8 @@ ows              | http://www.opengis.net/ows/1.1
 inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
 inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
 gmd              | http://www.isotc211.org/2005/gmd
+gco              | http://www.isotc211.org/2005/gco
+csw              | http://www.opengis.net/cat/csw/2.0.2
 xlink            | http://www.w3.org/1999/xlink
 
 
