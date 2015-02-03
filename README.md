@@ -81,7 +81,7 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Draft
 | [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Draft
 | [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Draft
-| [A.04.layer.name.id](A.04.layer.name.id.md) | | Yes | Draft
+| [A.04.layer.name.id](A.04.layer.name.id.md) | IR | Yes | Draft
 | [A.05.IR85.layer.title](A.05.IR85.layer.title.md) | IR | Yes | Missing
 | [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | IR | Yes | Missing
 | [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Missing
