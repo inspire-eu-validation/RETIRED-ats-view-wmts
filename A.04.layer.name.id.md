@@ -12,13 +12,14 @@ The identifiers if the WMTS layers portraying INSPIRE data sets must be INSPIRE 
 
 For each [Layer element](#layer) provided by the service according to it's Service Metadata:
 
-* For [Metadata element](#metadata) for the layer as `metadata`:
+* For each [Metadata element](#metadata) of the layer as `metadata`:
   * Check that `metadata` contains a non-empty [href attribute](#href_attr) and that it's a valid URL and fetch the document it refers to.
   * Check that the fetched document contains is a valid INSPIRE metadata record for a data set at it's root.
   * Check if the [Specification](#specification) contains one of the official translations of the names of [IR IOP](README.md#ref_IR_IOP) and that the value of [Pass](#pass) equals "true".
-  * If the above conditions are not met, pass the test is non-INSPIRE layer. If they are passed also check the following:
-     *  Check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments.
-  * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names in order for the test to pass.
+  * If at least one of the above conditions is not met, skip this layer as a non-INSPIRE layer.
+  * If all of them are they are met, check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments. If matched, mark layer as passed.
+* All layers must be marked either as skipped or passed.
+* If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names in order for the test to pass for all of those layers.
 
 **Reference(s)**: [IR IOP](README.md#ref_IR_IOP), [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6
 
@@ -26,7 +27,9 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 **Notes**
 
-It's assumed that there may be layers providing portrayals for both the INSPIRE data sets and non-INSPIRE data sets in the same service. Also it's assumed, that there may be more than one layer prortaying the same dataset and thus pointing to the same metadata record using the [Metadata element](#metadata).
+The harmonized names only apply to the harmonized INSPIRE data sets provided according to the INSPIRE Data Specifications.
+
+It's assumed that there may be layers providing portrayals for both the INSPIRE data sets and non-INSPIRE data sets in the same service. Also it's assumed, that there may be more than one layer portraying the same dataset and thus pointing to the same metadata record using the [Metadata element](#metadata).
 
 ## Contextual XPath references
 
