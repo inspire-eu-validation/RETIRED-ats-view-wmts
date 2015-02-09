@@ -18,7 +18,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 **Notes**
 
-The validation of the correct translated title is not done due to it's complexity and the controversy over the usefulness of the harmonised layer titles. If this is decided to be necessary, the procedure should be similar to one used in `A.04.layer.name.id`.
+The validation of the correctness of the translated title is not done due to it's complexity and the controversy over the usefulness of the harmonised layer titles. If this is decided to be necessary, the procedure should be similar to one used in `A.04.layer.name.id`.
 
 ## Contextual XPath references
 
@@ -27,4 +27,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer <a name="layer"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer
-Title <a name="title"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/wmts:Title
+Title <a name="title"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:Title
