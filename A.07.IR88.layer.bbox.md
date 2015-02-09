@@ -10,7 +10,7 @@
 
 For each [Layer element](#layer) provided by the service according to it's Service Metadata:
 
-* Check that there is at least one [WGS84BoundingBox element](#wgs84bbox) element, and that it both the [LowerCorner](#lowerCorner) and the [UpperCorner](#upperCorner) elements are given and have two values (longitude latitude) in this order. Usually the coordinates are decimal numbers. For details, see Notes.
+* Check that there is at least one [WGS84BoundingBox element](#wgs84bbox), and that it both the [LowerCorner](#lowerCorner) and the [UpperCorner](#upperCorner) elements are given and have two values (longitude latitude) in this order. Usually the coordinates are decimal numbers. For details, see Notes.
 
 **Reference(s)**: [TG VS](README.md#ref_TG_VS), chapter 5.2.3.3.4.4
 
