@@ -80,11 +80,11 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | WMTS.A.3.5.10 Correct Format (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
-| [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Draft
-| [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Draft
-| [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Draft
-| [A.04.layer.name.id](A.04.layer.name.id.md) | IR | Yes | Draft
-| [A.05.IR85.layer.title](A.05.IR85.layer.title.md) | IR | Yes | Missing
-| [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | IR | Yes | Missing
-| [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Missing
+| [A.01.IR77.language.param](A.01.IR77.language.param.md) | IR | Yes | Ready for review
+| [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) | IR | Yes | Ready for review
+| [A.03.IR82.image.format](A.03.IR82.image.format.md) | IR | Yes | Ready for review
+| [A.04.layer.name.id](A.04.layer.name.id.md) | IR | Yes | Ready for review
+| [A.05.IR85.layer.title](A.05.IR85.layer.title.md) | IR | Yes | Ready for review
+| [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | IR | Yes | Ready for review
+| [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Ready for review
 | [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Missing
