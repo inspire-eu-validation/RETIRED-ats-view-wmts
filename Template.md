@@ -2,6 +2,10 @@
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 
+**Prerequisites**
+
+Which other tests must be passed before starting this test?
+
 **Test method**
 
 A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
