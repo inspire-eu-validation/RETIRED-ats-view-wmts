@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* Test for the schema validity of the ServiceMetadata document has been passed.
+* Test for the schema validity of the ServiceMetadata document (Capabilities) has been passed.
 
 **Test method**
 
@@ -12,7 +12,7 @@ This test is based in following the link to the data set metadata record, and fr
 
 For each [Metadata element](#metadata) for each [Layer](#layer) in the ServiceMetadata document as `metadata`:
 * Check that `metadata` contains a non-empty [href attribute](#href_attr) and that it's a valid URL and fetch the document it refers to. Let the value of the [href attribute](#href_attr) be `href`.
-* Check that the fetched document contains is a valid INSPIRE metadata record for a data set at it's root.
+* Check that the fetched document contains is a valid INSPIRE metadata record for a dataset at it's root (must pass the entire ATS branch for dataset or dataset series tests, see [ats-metadata](https://github.com/inspire-eu-validation/ats-metadata).
 * For each [transfer URL](#transfer_url) as `tURL`:
   * Check that `tURL` is a valid URL and fetch the document it refers to.
   * If the returned document is a valid WMTS 1.0.0 ServiceMetadata document, then
