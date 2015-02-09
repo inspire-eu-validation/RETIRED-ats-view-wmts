@@ -1,6 +1,6 @@
 # A.08.IR88.layer.bbox
 
-**Purpose**:
+**Purpose**: Geographic Bounding Box element is used to facilitate geographic searches.
 
 **Prerequisites**
 
