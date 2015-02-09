@@ -28,9 +28,11 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 **Notes**
 
-The harmonised names only apply to the harmonised INSPIRE datasets provided according to the INSPIRE Data Specifications.
+Note 1: The harmonised names only apply to the harmonised INSPIRE datasets provided according to the INSPIRE Data Specifications.
 
-It's assumed that there may be layers providing portrayals for both the INSPIRE datasets and non-INSPIRE data sets in the same service. Also it's assumed, that there may be more than one layer portraying the same dataset and thus pointing to the same metadata record using the [Metadata element](#metadata).
+Note 2: The use and usefulness of the harmonised layer names and titles is under discussion, see https://ies-svn.jrc.ec.europa.eu/issues/2172 and https://ies-svn.jrc.ec.europa.eu/projects/miwp-20
+
+Note 3: It's assumed that there may be layers providing portrayals for both the INSPIRE datasets and non-INSPIRE data sets in the same service. Also it's assumed, that there may be more than one layer portraying the same dataset and thus pointing to the same metadata record using the [Metadata element](#metadata).
 
 ## Contextual XPath references
 
