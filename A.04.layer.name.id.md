@@ -1,4 +1,4 @@
-# A04.layer.name
+# A04.layer.name.id
 
 **Purpose**: It must be simple and unambiguous to find out which of the layers provided by the service visualize the INSPIRE spatial data sets given in the Data Specifications for each INSPIRE theme. These layers must be named according to the INSPIRE Harmonized layer names defined in [IR IOP](README.md#ref_IR_IOP)
 
@@ -18,7 +18,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
   * Check if the [Specification](#specification) contains one of the official translations of the names of [IR IOP](README.md#ref_IR_IOP) and that the value of [Pass](#pass) equals "true".
   * If the above conditions are not met, pass the test is non-INSPIRE layer. If they are passed also check the following:
      *  Check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments.
-     * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names.
+  * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names in order for the test to pass.
 
 **Reference(s)**: [IR IOP](README.md#ref_IR_IOP), [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6
 
@@ -26,7 +26,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 **Notes**
 
-It's assumed that there may be layers providing portrayals for both the INSPIRE data sets and non-INSPIRE data sets in the same service.
+It's assumed that there may be layers providing portrayals for both the INSPIRE data sets and non-INSPIRE data sets in the same service. Also it's assumed, that there may be more than one layer prortaying the same dataset and thus pointing to the same metadata record using the [Metadata element](#metadata).
 
 ## Contextual XPath references
 
