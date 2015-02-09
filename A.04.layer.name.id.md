@@ -17,7 +17,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
   * Check that the fetched document contains is a valid INSPIRE metadata record for a data set at it's root.
   * Check if the [Specification](#specification) contains one of the official translations of the names of [IR IOP](README.md#ref_IR_IOP) and that the value of [Pass](#pass) equals "true".
   * If at least one of the above conditions is not met, skip this layer as a non-INSPIRE layer.
-  * If all of them are they are met, check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments. If matched, mark layer as passed.
+  * If all of them are met, check that the trimmed string content of the [Identifier](#identifier) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments. If matched, mark layer as passed.
 * All layers must be marked either as skipped or passed.
 * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names in order for the test to pass for all of those layers.
 
