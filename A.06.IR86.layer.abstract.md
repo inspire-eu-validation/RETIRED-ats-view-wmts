@@ -10,7 +10,7 @@
 
 For each [Layer element](#layer) provided by the service according to it's Service Metadata:
 
-* Check that the [Abstract element](#anstract) is a non-empty character string. If so, pass the test.
+* Check that the [Abstract element](#abstract) is a non-empty character string. If so, pass the test.
 
 **Reference(s)**: [IR IOP](README.md#ref_IR_IOP), [TG VS](README.md#ref_TG_VS), chapter 5.2.3.3.4.2
 
