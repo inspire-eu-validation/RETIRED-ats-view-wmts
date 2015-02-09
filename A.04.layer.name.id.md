@@ -41,6 +41,8 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer <a name="layer"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer
+Metadata element <a name="metadata"></a>| ./ows:Metadata
+href attribute <a name="href_attr"></a> | @xlink:href
 Identifier <a name="idenfier"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:Identifier
 Specification <a name="specification"></a> |  /csw:GetRecordByIdResponse/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:title/gco:CharacterString
 Pass <a name="pass"></a> |  /csw:GetRecordByIdResponse/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:pass/gco:Boolean
