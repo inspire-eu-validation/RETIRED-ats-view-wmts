@@ -3,7 +3,7 @@ ats-view-wmts
 
 Abstract Test Suite for INSPIRE View Services Technical Guidance WMTS 1.0.0 Profile
 
-*Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
+*Note*: This ATS is in "Ready for review" stage, but none of the tests have an official INSPIRE MIG approval yet.
 
 ## External document references
 
@@ -11,6 +11,7 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
+INSPIRE <a name="ref_INSPIRE"></a> | [Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN)
 TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
 IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
 IR IOP <a name="ref_IR_IOP"><a/> | [COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2010:323:FULL&from=EN)
@@ -87,4 +88,5 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | [A.05.IR85.layer.title](A.05.IR85.layer.title.md) | IR | Yes | Ready for review
 | [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | IR | Yes | Ready for review
 | [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Ready for review
-| [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Missing
+| [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Ready for review
+| [A.09.IR91.layer.legend](A.05.IR91.layer.legend.md) | IR | Yes | Ready for review
