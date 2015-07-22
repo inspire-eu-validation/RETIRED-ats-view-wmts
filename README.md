@@ -89,4 +89,4 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | IR | Yes | Ready for review
 | [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Ready for review
 | [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Ready for review
-| [A.09.IR91.layer.legend](A.05.IR91.layer.legend.md) | IR | Yes | Ready for review
+| [A.09.IR91.layer.legend](A.09.IR91.layer.legend.md) | IR | Yes | Ready for review
