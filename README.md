@@ -18,23 +18,8 @@ IR IOP <a name="ref_IR_IOP"><a/> | [COMMISSION REGULATION (EU) No 1089/2010 of 2
 WMTS <a name="ref_WMTS"></a>     | [OpenGIS® Web Map Tile Service Implementation Standard version 1.0.0](http://portal.opengeospatial.org/files/?artifact_id=35326)
 TG MD <a name="ref_TG_MD"></a>   | [Technical Guidance for the implementation of INSPIRE Discovery Services 3.1](http://inspire.ec.europa.eu/documents/Network_Services/TechnicalGuidance_DiscoveryServices_v3.1.pdf)
 
-## XML namespace prefixes <a name="namespaces"></a>
-
-The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
-
-Prefix           | Namespace
----------------- | -------------------------------------------------
-wmts             | http://www.opengis.net/wmts/1.0
-ows              | http://www.opengis.net/ows/1.1
-inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
-inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
-gmd              | http://www.isotc211.org/2005/gmd
-gco              | http://www.isotc211.org/2005/gco
-csw              | http://www.opengis.net/cat/csw/2.0.2
-xlink            | http://www.w3.org/1999/xlink
-
 ## TG Requirement coverage
-Based on requirent numbering in [TG VS](#ref_TG_VS).
+Based on requirement numbering in [TG VS](#ref_TG_VS).
 
 | Req#  | Description                          | Covered by test(s)                 | IR reference(s)                  |
 | ----- | ------------------------------------ | ---------------------------------- | -------------------------------- |
@@ -119,3 +104,18 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 ## Open issues
 
 * There are no explicit requirements for including any of the INSPIRE ServiceMetadata elements in the Capabilities document, thus there is are no test for the existence of these elements either. This is probably not intended by the TG authors.
+
+## XML namespace prefixes <a name="namespaces"></a>
+
+The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
+
+Prefix           | Namespace
+---------------- | -------------------------------------------------
+wmts             | http://www.opengis.net/wmts/1.0
+ows              | http://www.opengis.net/ows/1.1
+inspire_vs       | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
+inspire_common   | http://inspire.ec.europa.eu/schemas/common/1.0
+gmd              | http://www.isotc211.org/2005/gmd
+gco              | http://www.isotc211.org/2005/gco
+csw              | http://www.opengis.net/cat/csw/2.0.2
+xlink            | http://www.w3.org/1999/xlink
