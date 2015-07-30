@@ -8,7 +8,9 @@
 
 **Test method**
 
-For each [Layer element](#layer) provided by the service according to it's Service Metadata: Check that there is at least one [Format](#format) element either with content "image/png" or "image/gif".
+For each [Layer element](#layer) provided by the service according to it's Service Metadata:
+* Check that there is at least one [Format](#format) element either with content "image/png" or "image/gif".
+* Make a GetTile request for the layer using a maximum allowed bounding box and either "image/png" or "image/gif" format and check that the returned image is encoded in the requested format.
 
 **Reference(s)**: [TG VS](README.md#ref_TG_VS), Chapter 5.2.3.3.2.2
 
