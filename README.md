@@ -115,3 +115,7 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Ready for review
 | [A.09.IR91.layer.legend](A.09.IR91.layer.legend.md) | IR | Yes | Ready for review
 | [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | IR | Yes | Ready for review
+
+## Open issues
+
+* There are no explicit requirements for including any of the INSPIRE ServiceMetadata elements in the Capabilities document, thus there is are no test for the existence of these elements either. This is probably not intended by the TG authors.
