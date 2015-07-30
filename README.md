@@ -33,6 +33,30 @@ gco              | http://www.isotc211.org/2005/gco
 csw              | http://www.opengis.net/cat/csw/2.0.2
 xlink            | http://www.w3.org/1999/xlink
 
+## TG Requirement coverage
+Based on requirent numbering in [TG VS](#ref_TG_VS).
+
+| Req#  | Description                          | Covered by test(s)                 | IR reference(s)                  |
+| ----- | ------------------------------------ | ---------------------------------- | -------------------------------- |
+| IR 74 | Scope: WMTS 1.0 + INSPIRE extensions |  n/a                               |                              |
+| IR 75 | WMTS GetCapabilities, GetTile       |  All included OGC WMTS tests       |  n/a                             |
+| IR 76 | Link View Service                    |  n/a                               |                              |
+| IR 77 | Common request parameters            |  WMTS common request parameter tests, [A.01.IR77.language.param](A.01.IR77.language.param.md)  | Annex III, Part A, 2.1.1. & 3.1.1. |
+| IR 78 | Service metadata content             |  WMTS GetCapabilities tests, most of the tests in this suite   |
+| IR 79 | Layer metadata link                  |  [A.02.IR79.layer.metadata.ref](A.02.IR79.layer.metadata.ref.md) |    |
+| IR 80 | Link View Service                    |  n/a                |                                             |
+| IR 81 | GetCapabilities operation metadata   | WMTS.A.3.2.2        |                                            |
+| IR 82 | GetTile operation metadata           | WMTS.A.3.2.2        |                                             |
+| IR 83 | Link View Service operation metadata | n/a                 |                                            |
+| IR 84 | Layer metadata elements (generic)    | A.04 - A.09         |   Annex III, Part A, 2.2.4  |
+| IR 85 | Layer title                          | [A.05.IR85.layer.title](A.05.IR85.layer.title.md) |  Annex III, Part A, 2.2.4 |
+| IR 86 | Layer abstract                       | [A.06.IR86.layer.abstract](A.06.IR86.layer.abstract.md) | Annex III, Part A, 2.2.4 |
+| IR 87 | Keywords                             | Not testable beyond WMTS spec. requirements           | Annex III, Part A, 2.2.4 |
+| IR 88 | Geographic Bounding Box              | [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | Annex III, Part A, 2.2.4 |
+| IR 89 | Use ETRS & ITRS CRSes                | Not testable |  Annex III, Part B, 1.  |
+| IR 90 | Style: Title & Identifier            | [A.04.layer.name.id](A.04.layer.name.id.md), [A.08.IR90.layer.style](A.08.IR90.layer.style.md)   | Annex III, Part A, 2.2.4 |
+| IR 91 | Style: Legend                        | [A.09.IR91.layer.legend](A.09.IR91.layer.legend.md) | Annex III, Part A, 2.2.4 |
+| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | Annex III, Part A, 3.1.1.  |
 
 ## Tests
 
@@ -90,3 +114,4 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | [A.07.IR88.layer.bbox](A.07.IR88.layer.bbox.md) | IR | Yes | Ready for review
 | [A.08.IR90.layer.style](A.08.IR90.layer.style.md) | IR | Yes | Ready for review
 | [A.09.IR91.layer.legend](A.09.IR91.layer.legend.md) | IR | Yes | Ready for review
+| [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | IR | Yes | Ready for review
