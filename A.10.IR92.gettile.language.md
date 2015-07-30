@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* WMTS generic operation tests and GetTile specific operation tests in the OGC WMTS ATS ahve been passed.
+* WMTS generic operation tests and GetTile specific operation tests in the OGC WMTS ATS have been passed.
 * Test for the schema validity of the ServiceMetadata document has been passed.
 * Test for the existence and validity of the INSPIRE [ExtendedCapabilities](#extendedCapabilities) in ServiceMetadata document has been passed (*TODO: replace with a reference to this test after it's been created*).
 
