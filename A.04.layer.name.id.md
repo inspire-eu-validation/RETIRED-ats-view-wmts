@@ -34,7 +34,7 @@ Note 2: The use and usefulness of the harmonised layer names and titles is under
 
 Note 3: It's assumed that there may be layers providing portrayals for both the INSPIRE datasets and non-INSPIRE data sets in the same service. Also it's assumed, that there may be more than one layer portraying the same dataset and thus pointing to the same metadata record using the [Metadata element](#metadata).
 
-Note 4: The [TG VS](README.md#ref_TG_VS) does not explicate any requirements for WMTS layer identifiers, even though the use of the INSIPRE harmonized layer names for the given themes is required in [IR IOP](README.md#ref_IR_IOP). 
+Note 4: The [TG VS](README.md#ref_TG_VS) does not explicate any requirements for WMTS layer identifiers, even though the use of the INSPIRE harmonized layer names for the given themes is required in [IR IOP](README.md#ref_IR_IOP).
 
 ## Contextual XPath references
 
@@ -45,6 +45,6 @@ Abbreviation                                               |  XPath expression
 Layer <a name="layer"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer
 Metadata element <a name="metadata"></a>| ./ows:Metadata
 href attribute <a name="href_attr"></a> | @xlink:href
-Identifier <a name="idenfier"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:Identifier
+Identifier <a name="identifier"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:Identifier
 Specification <a name="specification"></a> |  /csw:GetRecordByIdResponse/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:title/gco:CharacterString
 Pass <a name="pass"></a> |  /csw:GetRecordByIdResponse/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:pass/gco:Boolean
